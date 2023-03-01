@@ -218,6 +218,124 @@ char *strerror(int errnum){
 }
 
 
+size_t strlen(const char *str){
+    char* strPointer = (char*)str;
+    int i;
+    for(i = 0; 1; i++){
+        if(strPointer[i] == '\0')return (i - 1);
+    }
+}
+
+
+char *strpbrk(const char *str1, const char *str2){
+    char* str1Pointer = (char*)str1;
+    char* str2Pointer = (char*)str2;
+    int bar;
+
+    for(size_t i = 0; 1 ; i++){
+        for(int foo = 0; 1; foo++){
+            if(str2Pointer[foo] == '\0')break;
+            else if(str1Pointer[i] == str2Pointer[foo]) return &str2Pointer[foo];
+            else continue;
+        }
+        if(str1Pointer[i] == '\0') return NULL;
+
+        else continue;
+
+    }
+}
+
+char *strrchr(const char *str, int c){
+    char* strPointer = (char*)str;
+    uint8_t i = 0;
+    for(i; 1; i++) if(strPointer[i] == '\0') break;
+
+    for(i; 1; i--)if(strPointer[i] == c) return &strPointer[i];
+}
+
+size_t strspn(const char *str1, const char *str2){
+    char* str1Pointer = (char*)str1;
+    char* str2Pointer = (char*)str2;
+    size_t a;
+    uint8_t foo;
+    for(uint8_t i = 0;1;i++){
+        if(str2Pointer[foo] == '\0') break;
+        else{
+            for(foo; 1; foo++){
+                if(str2Pointer[foo] == str2Pointer[i]) a++;
+                else if(str2Pointer[foo] == '\0')break;
+                else continue;
+            }
+        }
+    }
+    return a;
+}
+
+
+char *strstr(const char *haystack, const char *needle){
+    char* haystackPointer = (char*)haystack;
+    char* needlePointer = (char*)needle;
+    int a;
+    for(int i; 1; i++){
+        if(haystackPointer[i] == needlePointer[i]){
+            a = i;
+            for(a;1;a++)
+            {
+                if(needlePointer[a] == haystackPointer[a]) continue;
+                else if(needlePointer[a] == '\0') return &haystackPointer[i];
+                else break;
+            }
+
+        }
+        else if(haystackPointer[i] == '\0')return NULL;
+        else continue;
+    }
+}
+
+
+uint8_t tokennum;
+char* token[100];
+uint8_t i;
+char *strtok(char *str, const char *delim){
+    tokennum++;
+    char* strPointer = (char*)str;
+    char* delimPointer = (char*)delim;
+    if(str != NULL){
+        if(tokennum != 0)tokennum = 0;
+        if(i != 0)i = 0;
+            for(uint8_t i = 0;1;i++){
+                if(strPointer[i] == delimPointer[i]){
+                    token[tokennum] == &strPointer[i];
+
+                }
+                else if(strPointer[i] == '\0') break;
+                else continue;
+            }
+            return token[0];
+    }
+    if(str == NULL){
+        i = i + 1;
+        return token[i];
+    }
+}
+
+size_t strxfrm(char *dest, const char *src, size_t n){
+    char* destPointer = (char*)dest;
+    char* srcPointer = (char*)src;
+    uint8_t i;
+    for(i = 0; i < n ; i++){
+        destPointer[i] = srcPointer[i];
+        if(srcPointer[i] == '\0'){
+            i = i - 1;
+            return i;
+        }
+        else if(i == n) return i;
+    }
+}
+
+
+
+
 
 
 
