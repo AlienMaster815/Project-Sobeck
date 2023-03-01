@@ -213,6 +213,9 @@ size_t strcspn(const char *str1, const char *str2){
 
 
 
+char *strerror(int errnum){
+    return deployERRvariable(errnum);
+}
 
 
 

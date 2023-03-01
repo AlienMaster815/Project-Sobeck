@@ -1,4 +1,4 @@
-#define EPERM	0x01//	Operation not permitted
+#define EPERM	0x01 // Operation not permitted
 #define ENOENT	0x02	//No such file or directory
 #define ESRCH   0x03	//No such process
 #define EINTR   0x04 //Interrupted system call
@@ -146,3 +146,5 @@
 #define EJUKEBOX		0x210	//0x..ff1f0	Request initiated, but will not complete before timeout
 #define EIOCBQUEUED		0x211	//0x..ff1ef	iocb queued, will get completion event
 #define EIOCBRETRY		0x212	//0x..ff1ee	iocb queued, will trigger a retry
+
+char* deployERRvariable(int error);
