@@ -1,4 +1,5 @@
 #include "alpha_variables.h"
+#include "sys_inf.h"
 #include "pic.h"
 
 void PIC_sendEOI(unsigned char irq)

@@ -1,7 +1,6 @@
+#include "sys_inf.h"
+#include "io.h"
 #include "pci.h"
-
-
-
 uint16_t pciConfigReadWord(uint8_t bus, uint8_t slot, uint8_t func, uint8_t offset) {
     uint32_t address;
     uint32_t lbus  = (uint32_t)bus;
@@ -24,7 +23,7 @@ uint16_t pciConfigReadWord(uint8_t bus, uint8_t slot, uint8_t func, uint8_t offs
 uint16_t getHeaderType(uint8_t bus, uint8_t slot,uint8_t func){
     uint16_t vendor,header;
     if ((vendor = pciConfigReadWord(bus, slot, func, 0)) != 0xFFFF) {
-        header = pciConfigReadWord(bus, slot, func, 11);
+        header = pciConfigReadWord(bus, slot, func, 15);
     }
     return header;
 }
@@ -33,7 +32,7 @@ uint16_t getHeaderType(uint8_t bus, uint8_t slot,uint8_t func){
 uint16_t getBaseClass(uint8_t bus, uint8_t slot,uint8_t func){
     uint16_t vendor,class;
     if ((vendor = pciConfigReadWord(bus, slot, func, 0)) != 0xFFFF) {
-        class = pciConfigReadWord(bus, slot, func, 8);
+        class = pciConfigReadWord(bus, slot, func, 12);
     }
     return class;
 }
@@ -73,6 +72,7 @@ uint16_t pciCheckVendor(uint8_t bus, uint8_t slot,uint8_t func) {
              }
          }
      }
+     store_device_info(bus,device,function);
  }
 
  void checkFunction(uint8_t bus, uint8_t device, uint8_t function) {
@@ -99,7 +99,7 @@ void checkBus(uint8_t bus) {
  uint16_t getSecondaryBus(uint8_t bus, uint8_t slot,uint8_t func){
         uint16_t SecondBus,vendor;
         if ((vendor = pciConfigReadWord(bus, slot, func, 0)) != 0xFFFF) {
-        SecondBus = pciConfigReadWord(bus, slot, func, 16);
+        SecondBus = pciConfigReadWord(bus, slot, func, 25);
         return SecondBus;
         }
 
@@ -108,7 +108,26 @@ void checkBus(uint8_t bus) {
  uint16_t getSubClass(uint8_t bus, uint8_t slot,uint8_t func){
         uint16_t subClass,vendor;
         if ((vendor = pciConfigReadWord(bus, slot, func, 0)) != 0xFFFF) {
-        subClass = pciConfigReadWord(bus, slot, func, 7);
+        subClass = pciConfigReadWord(bus, slot, func, 11);
         }
         return subClass;
  }
+
+uint8_t device = 0;
+void store_device_info(uint8_t bus, uint8_t slot,uint8_t func){
+    PCIdevice[device].vendorID = pciConfigReadWord(bus,slot,func, 0);
+    PCIdevice[device].deviceID = pciConfigReadWord(bus,slot,func, 2);
+    PCIdevice[device].command = pciConfigReadWord(bus,slot,func, 4);
+    PCIdevice[device].status = pciConfigReadWord(bus,slot,func, 6);
+    PCIdevice[device].revisionID = pciConfigReadWord(bus,slot,func, 8);
+    PCIdevice[device].progIF = pciConfigReadWord(bus,slot,func, 9);
+    PCIdevice[device].subClass = pciConfigReadWord(bus,slot,func, 10);
+    PCIdevice[device].classCode = pciConfigReadWord(bus,slot,func, 11);
+    PCIdevice[device].cacheLine = pciConfigReadWord(bus,slot,func, 12);
+    PCIdevice[device].latencyTimer = pciConfigReadWord(bus,slot,func, 13);
+
+    PCIdevice[device].headerType = pciConfigReadWord(bus,slot,func, 14);
+
+    PCIdevice[device].BIST = pciConfigReadWord(bus,slot,func, 15);
+    device++;
+}

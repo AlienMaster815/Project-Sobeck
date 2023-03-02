@@ -2,7 +2,7 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "gdt.h"
-#include "io.h"
+
 
 enum{
     true =1,
