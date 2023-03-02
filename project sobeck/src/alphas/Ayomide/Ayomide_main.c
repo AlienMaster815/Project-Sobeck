@@ -2,6 +2,7 @@
 #include "liz_print.h"
 #include "pic.h"
 #include "interrupts.h"
+#include "pci.h"
 uint8_t ayomide_panic_status;
 uint8_t ayomide_awake(){
     uint8_t set_up_interrupts();
@@ -11,5 +12,7 @@ uint8_t ayomide_awake(){
     pic_shutdown();
     liz_print_str("pic is shutdown\n");
     enable_apic();
-    liz_print_str("processor apic enabled\n");
+    liz_print_str("apic enabled\n");
+    pci_start();
+    liz_print_str("pci scanned\n");
 }

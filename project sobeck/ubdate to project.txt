@@ -1,1 +1,2 @@
-string.h has been completed
+Updated basic_io.c to run outl and inl instructions
+created pci.c and pci.h to create a driver for pci standard devices

@@ -1,7 +1,7 @@
 [BITS 32]
 pte equ 0x1000
 
-extern elizabet_sobeck
+extern load_elizabet
 section .multiboot
 ALIGN 4
 multiboot:
@@ -95,7 +95,7 @@ start:
 [bits 64]
 
 long_mode:
-jmp elizabet_sobeck
+jmp load_elizabet
 
 panic:
     hlt
