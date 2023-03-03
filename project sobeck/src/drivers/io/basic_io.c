@@ -43,7 +43,7 @@ uint8_t inb(uint16_t port)
     return ret;
 }
 
-void outl(uint64_t port, uint32_t val)
+void outl(uint16_t port, uint32_t val)
 {
     asm volatile ( "outl %0, %1" : : "a"(val), "Nd"(port) );
     /* There's an outb %al, $imm8  encoding, for compile-time constant port numbers that fit in 8b.  (N constraint).
@@ -52,7 +52,7 @@ void outl(uint64_t port, uint32_t val)
      * %1 expands to %dx because  port  is a uint16_t.  %w1 could be used if we had the port number a wider C type */
 }
 
-uint64_t inl(uint64_t port)
+uint64_t inl(uint16_t port)
 {
     uint32_t ret;
     asm volatile ( "inl %1, %0"

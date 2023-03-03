@@ -2,8 +2,8 @@
 #include "alpha_variables.h"
 #include "string.h"
 
-uint64_t inl(uint64_t port);
-void outl(uint64_t port, uint32_t val);
+uint64_t inl(uint16_t port);
+void outl(uint16_t port, uint32_t val);
 uint32_t farpeekl(uint16_t sel, void* off);
 void farpokeb(uint16_t sel, void* off, uint8_t v);
 void outb(uint16_t port, uint8_t val);
