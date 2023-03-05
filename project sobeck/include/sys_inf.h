@@ -15,7 +15,6 @@ static uint8_t numcore=0;          // number of cores detected
 static uint64_t lapic_ptr=0;       // pointer to the Local APIC MMIO registers
 static uint64_t ioapic_ptr=0;      // pointer to the IO APIC MMIO registers
 
-static pci_device_table Graphics_Adapter[256];
 
 
 

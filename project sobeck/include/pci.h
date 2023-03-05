@@ -93,6 +93,8 @@ typedef struct __attribute__((packed)){
     uint16_t Bridge_Control;
 }header_0x1_pci_device_table;
 
+
+
 typedef struct __attribute__((packed)){
     uint8_t hardware_num;
     uint16_t vendorID;
@@ -134,27 +136,22 @@ typedef struct __attribute__((packed)){
 
 
 
+
+
 uint16_t pciConfigReadWord(uint8_t bus, uint8_t slot, uint8_t func, uint8_t offset);
 
 
 uint16_t pciCheckVendor(uint8_t bus, uint8_t slot, uint8_t func );
+uint16_t getClassId(uint16_t bus, uint16_t device, uint16_t function);
+uint8_t getHeaderType(uint8_t bus,uint8_t slot,uint8_t function);
+uint16_t getSubClassId(uint16_t bus, uint16_t device, uint16_t function);
 
+uint16_t getClassId(uint16_t bus, uint16_t device, uint16_t function);
 
-
-void checkFunction(uint8_t bus, uint8_t device, uint8_t function);
-
-void checkDevice(uint8_t bus, uint8_t device);
-
-void checkAllBuses(void);
-void checkBus(uint8_t bus);
-uint8_t getHeaderType(uint8_t bus,uint8_t slot, uint8_t func);
-uint8_t getBaseClass(uint8_t bus, uint8_t slot,uint8_t func);
-uint8_t getSecondaryBus(uint8_t bus, uint8_t slot,uint8_t func);
-uint8_t getSubClass(uint8_t bus, uint8_t slot,uint8_t func);
 
 void pci_write(uint16_t bus,uint16_t device,uint16_t function,uint32_t registeroffset, uint32_t value);
 
-uint32_t pci_read(uint16_t bus,uint16_t device,uint16_t function,uint32_t registeroffset);
+uint16_t pci_read(uint16_t bus,uint16_t device,uint16_t function,uint32_t registeroffset);
 
 void store_device_info(uint8_t bus, uint8_t slot,uint8_t func);
 
@@ -165,3 +162,6 @@ uint8_t pci_Has_Function(uint16_t bus,uint16_t device);
 
 void FindPciDriver();
 void FindPciDevice();
+uint16_t getVendorID(uint16_t bus, uint16_t device, uint16_t function);
+uint8_t getHeaderType(uint8_t bus,uint8_t slot,uint8_t function);
+

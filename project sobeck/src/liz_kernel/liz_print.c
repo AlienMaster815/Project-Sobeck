@@ -80,4 +80,11 @@ void liz_print_str(char* string){
 void liz_print_set_color(unsigned char foreground, unsigned char background){
         color = foreground + (background << 4);
 }
-
+void liz_print_hex(uint8_t key)
+{
+    char* foo = "00";
+    char* hex = "0123456789ABCDEF";
+    foo[0] = hex[(key >> 4) & 0xF];
+    foo[1] = hex[key & 0xF];
+    liz_print_str(foo);
+}
