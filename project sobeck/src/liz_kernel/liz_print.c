@@ -1,6 +1,6 @@
 
 #include "liz_print.h"
-
+#include "string.h"
 
 const static size_t NUM_COLS = 80;
 const static size_t NUM_ROWS = 25;
@@ -56,13 +56,19 @@ void liz_print_newline(){
         row++;
         return;
     }
+    else{
+
     for(size_t row = 1; row < NUM_ROWS; row++){
         for(size_t col = 0; col < NUM_COLS; col++){
-            struct letter charecter = buffer[col + NUM_COLS * row];
-            buffer[col + NUM_COLS * (row -1)] = charecter;
+
+                 buffer[col + NUM_COLS * (row - 1)] = buffer[col + NUM_COLS * row];
+
+            }
+        liz_clear_row(row);
         }
+
+        liz_clear_row(NUM_COLS -1);
     }
-    liz_clear_row(NUM_COLS -1);
 }
 
 void liz_print_str(char* string){
