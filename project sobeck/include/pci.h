@@ -1,6 +1,7 @@
 #pragma once
 #include <stddef.h>
 #include <stdint.h>
+#include "kernel_native_drivers.h"
 //atribute packed so the compiler dosent waste ram
 typedef struct __attribute__((packed)){
     uint16_t vendorID;
