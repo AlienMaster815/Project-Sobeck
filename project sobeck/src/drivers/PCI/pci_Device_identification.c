@@ -1748,13 +1748,1106 @@ void find_device(uint8_t bus , uint8_t device ,uint8_t function){
     if(vendorID == 7469){
         liz_print_str("GOOD WAY TECH");
     }
+    if(vendorID == 7474){
+        liz_print_str("Genesis");
+    }
+    if(vendorID == 7475){
+        liz_print_str("Prodrive");
+    }
+    if(vendorID == 7478){
+        liz_print_str("Airbus Defense and Space");
+    }
+    if(vendorID == 7480){
+        liz_print_str("Colorado Engineering");
+    }
+    if(vendorID == 7481){
+        liz_print_str("Baikal JSC");
+    }
+    if(vendorID == 7493){
+        liz_print_str("Top Victory");
+    }
+    if(vendorID == 7495){
+        liz_print_str("Ciena");
+    }
+    if(vendorID == 7499){
+        liz_print_str("Elektrofera");
+    }
+    if(vendorID == 7500){
+        liz_print_str("Diamanti && Datawise");
+    }
+    if(vendorID == 7501){
+        liz_print_str("Integrated Design");
+    }
+    if(vendorID == 7504){
+        liz_print_str("Aurotek");
+    }
+    if(vendorID == 7512){
+        liz_print_str("ATECH FLASH");
+    }
+    if(vendorID == 7521){
+        liz_print_str("Technobox");
+    }
+    if(vendorID == 7524){
+        liz_print_str("Quarch");
+    }
+    if(vendorID == 7527){
+        liz_print_str("Alltop");
+    }
+    if(vendorID == 7531){
+        liz_print_str("ZAO Kraftway");
+    }
+    if(vendorID == 7537){
+        liz_print_str("Laird Connectivity");
+    }
+    if(vendorID == 7538){
+        liz_print_str("Xiaomi Communications");
+    }
+    if(vendorID == 7544){
+        liz_print_str("Dera");
+    }
+    if(vendorID == 7545){
+        liz_print_str("Transcend");
+    }
+    if(vendorID == 7548){
+        liz_print_str("AeroTech");
+    }
+    if(vendorID == 7549){
+        liz_print_str("Viavi");
+    }
+    if(vendorID == 7551){
+        liz_print_str("Plugable");
+    }
+    if(vendorID == 7554){
+        liz_print_str("NETINT");
+    }
+    if(vendorID == 7555){
+        liz_print_str("Uniconn");
+    }
+    if(vendorID == 7556){
+        liz_print_str("b-plus");
+    }
+    if(vendorID == 7557){
+        liz_print_str("Neosem Holdings");
+    }
+    if(vendorID == 7558){
+        liz_print_str("EVERTZ");
+    }
+    if(vendorID == 7559){
+        liz_print_str("Rockchip");
+    }
+    if(vendorID == 7560){
+        liz_print_str("Telechips");
+    }
+    if(vendorID == 7561){
+        liz_print_str("YEESTOR");
+    }
+    if(vendorID == 7564){
+        liz_print_str("FASTWEL");
+    }
+    if(vendorID == 7565){
+        liz_print_str("Fiberhome");
+    }
+    if(vendorID == 7566){
+        liz_print_str("MACOM");
+    }
+    if(vendorID == 7567){
+        liz_print_str("ENYX");
+    }
+    if(vendorID == 7570){
+        liz_print_str("ABACO");
+    }
+    if(vendorID == 7571){
+        liz_print_str("YADRO");
+    }
+    if(vendorID == 7572){
+        liz_print_str("Chengdu Higon");
+    }
+    if(vendorID == 7573){
+        liz_print_str("GraphCore");
+    }
+    if(vendorID == 7575){
+        liz_print_str("Shenzhen Longsys");
+    }
+    if(vendorID == 7579){
+        liz_print_str("Facebook");
+    }
+    if(vendorID == 7584){
+        liz_print_str("3M Company");
+    }
+    if(vendorID == 7585){
+        liz_print_str("TEKO TELECOM");
+    }
+    if(vendorID == 7586){
+        liz_print_str("Sapphire");
+    }
+    if(vendorID == 7589){
+        liz_print_str("UTran");
+    }
+    if(vendorID == 7592){
+        liz_print_str("Corigine");
+    }
+    if(vendorID == 7596){
+        liz_print_str("SparkLAN");
+    }
+    if(vendorID == 7598){
+        liz_print_str("Vectology");
+    }
+    if(vendorID == 7599){
+        liz_print_str("MIT Lincoln Lab");
+    }
+    if(vendorID == 7602){
+        liz_print_str("STP Electronics");
+    }
+    if(vendorID == 7603){
+        liz_print_str("UNISOC");
+    }
+    if(vendorID == 7604){
+        liz_print_str("Arteris");
+    }
+    if(vendorID == 7613){
+        liz_print_str("Logic Fruit");
+    }
+    if(vendorID == 7614){
+        liz_print_str("INNOGRIT");
+    }
+    if(vendorID == 7618){
+        liz_print_str("Alco Digital");
+    }
+    if(vendorID == 7621){
+        liz_print_str("FADU");
+    }
+    if(vendorID == 7622){
+        liz_print_str("FOX Crypto");
+    }
+    if(vendorID == 7623){
+        liz_print_str("SSI");
+    }
+    if(vendorID == 7625){
+        liz_print_str("UniTest");
+    }
+    if(vendorID == 7626){
+        liz_print_str("MARVELL");
+    }
+    if(vendorID == 7629){
+        liz_print_str("LIQID");
+    }
+    if(vendorID == 7631){
+        liz_print_str("Beijing Sinead");
+    }
+    if(vendorID == 7632){
+        liz_print_str("MCDOWELL");
+    }
+    if(vendorID == 7633){
+        liz_print_str("Truechip");
+    }
+    if(vendorID == 7635){
+        liz_print_str("Sage");
+    }
+    if(vendorID == 7636){
+        liz_print_str("SwissBit");
+    }
+    if(vendorID == 7638){
+        liz_print_str("ECRIN");
+    }
+    if(vendorID == 7639){
+        liz_print_str("AVAL DATA");
+    }
+    if(vendorID == 7640){
+        liz_print_str("Pensando");
+    }
+    if(vendorID == 7643){
+        liz_print_str("Parraid");
+    }
+    if(vendorID == 7644){
+        liz_print_str("Carlisle");
+    }
+    if(vendorID == 7646){
+        liz_print_str("Valens");
+    }
+    if(vendorID == 7648){
+        liz_print_str("Groq");
+    }
+    if(vendorID == 7650){
+        liz_print_str("Action Star");
+    }
+    if(vendorID == 7653){
+        liz_print_str("Eietic Communications");
+    }
+    if(vendorID == 7656){
+        liz_print_str("Acqiris");
+    }
+    if(vendorID == 7661){
+        liz_print_str("Alibaba");
+    }
+    if(vendorID == 7662){
+        liz_print_str("Biwin Storage");
+    }
+    if(vendorID == 7663){
+        liz_print_str("Ampere");
+    }
+    if(vendorID == 7667){
+        liz_print_str("Ethernity");
+    }
+    if(vendorID == 7669){
+        liz_print_str("ShenZhen");
+    }
+    if(vendorID == 7671){
+        liz_print_str("OpenCPI");
+    }
+    if(vendorID == 7672){
+        liz_print_str("V & G");
+    }
+    if(vendorID == 7673){
+        liz_print_str("Simula");
+    }
+    if(vendorID == 7674){
+        liz_print_str("Astera Labs");
+    }
+    if(vendorID == 7677){
+        liz_print_str("CDSG");
+    }
+    if(vendorID == 7682){
+        liz_print_str("NSITEXE");
+    }
+    if(vendorID == 7683){
+        liz_print_str("OnLogic");
+    }
+    if(vendorID == 7689){
+        liz_print_str("Novatk");
+    }
+    if(vendorID == 7690){
+        liz_print_str("Esperanto");
+    }
+    if(vendorID == 7691){
+        liz_print_str("Shenzhen zhenta");
+    }
+    if(vendorID == 7692){
+        liz_print_str("Axiomtek");
+    }
+    if(vendorID == 7693){
+        liz_print_str("SambaNova");
+    }
+    if(vendorID == 7695){
+        liz_print_str("Kioxia");
+    }
+    if(vendorID == 7696){
+        liz_print_str("eSOL");
+    }
+    if(vendorID == 7698){
+        liz_print_str("Introspect");
+    }
+    if(vendorID == 7700){
+        liz_print_str("Silicon Creation");
+    }
+    if(vendorID == 7701){
+        liz_print_str("Wieson");
+    }
+    if(vendorID == 7702){
+        liz_print_str("BOXX");
+    }
+    if(vendorID == 7703){
+        liz_print_str("Arnold && Ritcher");
+    }
+    if(vendorID == 7704){
+        liz_print_str("Beijing GuangRunTong");
+    }
+    if(vendorID == 7706){
+        liz_print_str("DataDirect");
+    }
+    if(vendorID == 7707){
+        liz_print_str("Firm INFORMTEST");
+    }
+    if(vendorID == 7715){
+        liz_print_str("Credo");
+    }
+    if(vendorID == 7719){
+        liz_print_str("Shanghai Denglin");
+    }
+    if(vendorID == 7726){
+        liz_print_str("Mercedes Benz");
+    }
+    if(vendorID == 7730){
+        liz_print_str("Tuxera");
+    }
+    if(vendorID == 7731){
+        liz_print_str("Delkin");
+    }
+    if(vendorID == 7732){
+        liz_print_str("qrypt");
+    }
+    if(vendorID == 7734){
+        liz_print_str("Shanhai Enflame Technologies");
+    }
+    if(vendorID == 7736){
+        liz_print_str("Blaize");
+    }
+    if(vendorID == 7737){
+        liz_print_str("Medion");
+    }
+    if(vendorID == 7738){
+        liz_print_str("Cactus");
+    }
+    if(vendorID == 7739){
+        liz_print_str("DapuStor");
+    }
+    if(vendorID == 7741){
+        liz_print_str("Burlywood");
+    }
+    if(vendorID == 7742){
+        liz_print_str("Shanghai Iluvatar");
+    }
+    if(vendorID == 7743){
+        liz_print_str("Linaro");
+    }
+    if(vendorID == 7746){
+        liz_print_str("ART Beijing");
+    }
+    if(vendorID == 7747){
+        liz_print_str("MaxLinear");
+    }
+    if(vendorID == 7748){
+        liz_print_str("Valve");
+    }
+    if(vendorID == 7749){
+        liz_print_str("ESSENCORE");
+    }
+    if(vendorID == 7750){
+        liz_print_str("Varjo Tech");
+    }
+    if(vendorID == 7751){
+        liz_print_str("SZ Dji Technology");
+    }
+    if(vendorID == 7753){
+        liz_print_str("Yangtze Memorry");
+    }
+    if(vendorID == 7754){
+        liz_print_str("2CRSI");
+    }
+    if(vendorID == 7755){
+        liz_print_str("Maxio");
+    }
+    if(vendorID == 7756){
+        liz_print_str("GSI");
+    }
+    if(vendorID == 7760){
+        liz_print_str("IP3");
+    }
+    if(vendorID == 7762){
+        liz_print_str("Tenstorrent");
+    }
+    if(vendorID == 7768){
+        liz_print_str("Kinara");
+    }
+    if(vendorID == 7769){
+        liz_print_str("Oxford Nanopore");
+    }
+    if(vendorID == 7772){
+        liz_print_str("Alphawave");
+    }
+    if(vendorID == 7773){
+        liz_print_str("ASR");
+    }
+    if(vendorID == 7774){
+        liz_print_str("Emergent Vision");
+    }
+    if(vendorID == 7776){
+        liz_print_str("HAILO");
+    }
+    if(vendorID == 7779){
+        liz_print_str("Shenzhen iNET");
+    }
+    if(vendorID == 7783){
+        liz_print_str("Untether AI");
+    }
+    if(vendorID == 7784){
+        liz_print_str("Jiangsu Zinsheng");
+    }
+    if(vendorID == 7786){
+        liz_print_str("IRISO");
+    }
+    if(vendorID == 7787){
+        liz_print_str("Axiado");
+    }
+    if(vendorID == 7788){
+        liz_print_str("Xsight Labs");
+    }
+    if(vendorID == 7791){
+        liz_print_str("Kandou");
+    }
+    if(vendorID == 7794){
+        liz_print_str("ZOOX");
+    }
+    if(vendorID == 7795){
+        liz_print_str("NeuroBlade");
+    }
+    if(vendorID == 7797){
+        liz_print_str("Wind River");
+    }
+    if(vendorID == 7798){
+        liz_print_str("Zhejiang zhaolong");
+    }
+    if(vendorID == 7800){
+        liz_print_str("Beijing SenseTime");
+    }
+    if(vendorID == 7804){
+        liz_print_str("Brainchip");
+    }
+    if(vendorID == 7805){
+        liz_print_str("Daichu Tech");
+    }
+    if(vendorID == 7806){
+        liz_print_str("PLIOPS");
+    }
+    if(vendorID == 7807){
+        liz_print_str("Jiangsu");
+    }
+    if(vendorID == 7809){
+        liz_print_str("Ramaxel");
+    }
+    if(vendorID == 7810){
+        liz_print_str("Dongguan Yizhao");
+    }
+    if(vendorID == 7813){
+        liz_print_str("Heitec AG");
+    }
+    if(vendorID == 7814){
+        liz_print_str("Wintec");
+    }
+    if(vendorID == 7815){
+        liz_print_str("Shenzhen Shinning");
+    }
+    if(vendorID == 7826){
+        liz_print_str("Raymax");
+    }
+    if(vendorID == 7827){
+        liz_print_str("Douyin");
+    }
+    if(vendorID == 7830){
+        liz_print_str("Drut Technologies");
+    }
+    if(vendorID == 7831){
+        liz_print_str("Caswell");
+    }
+    if(vendorID == 7833){
+        liz_print_str("Integrated SERVICE");
+    }
+    if(vendorID == 7834){
+        liz_print_str("Neoconix");
+    }
+    if(vendorID == 7836){
+        liz_print_str("Adnacom");
+    }
+    if(vendorID == 7837){
+        liz_print_str("VersaLogic");
+    }
+    if(vendorID == 7839){
+        liz_print_str("Lynxi");
+    }
+    if(vendorID == 7840){
+        liz_print_str("Tencent");
+    }
+    if(vendorID == 7841){
+        liz_print_str("Sichuan Huafeng");
+    }
+    if(vendorID == 7842){
+        liz_print_str("Cyber Cogs");
+    }
+    if(vendorID == 7843){
+        liz_print_str("Expedera");
+    }
+    if(vendorID == 7844){
+        liz_print_str("Newtech");
+    }
+    if(vendorID == 7845){
+        liz_print_str("Chief Land");
+    }
+    if(vendorID == 7847){
+        liz_print_str("IntelliProp");
+    }
+    if(vendorID == 7848){
+        liz_print_str("Winintec");
+    }
+    if(vendorID == 7850){
+        liz_print_str("NTP Tech");
+    }
+    if(vendorID == 7851){
+        liz_print_str("Hefei DATANG");
+    }
+    if(vendorID == 7852){
+        liz_print_str("Quectel wireless");
+    }
+    if(vendorID == 7854){
+        liz_print_str("XFX");
+    }
+    if(vendorID == 7855){
+        liz_print_str("Palo Alto");
+    }
+    if(vendorID == 7856){
+        liz_print_str("Shenshen Eletrical");
+    }
+    if(vendorID == 7859){
+        liz_print_str("Shenzhen Goodtimes");
+    }
+    if(vendorID == 7862){
+        liz_print_str("Wuxi Stars");
+    }
+    if(vendorID == 7865){
+        liz_print_str("Senscomm");
+    }
+    if(vendorID == 7867){
+        liz_print_str("nCipher");
+    }
+    if(vendorID == 7868){
+        liz_print_str("Sabrent");
+    }
+    if(vendorID == 7869){
+        liz_print_str("Emergetch");
+    }
+    if(vendorID == 7873){
+        liz_print_str("Wiwynn");
+    }
+    if(vendorID == 7874){
+        liz_print_str("eTopus");
+    }
+    if(vendorID == 7876){
+        liz_print_str("Picocom");
+    }
+    if(vendorID == 7878){
+        liz_print_str("Vastai");
+    }
+    if(vendorID == 7880){
+        liz_print_str("Innosilicon");
+    }
+    if(vendorID == 7881){
+        liz_print_str("Wingtech");
+    }
+    if(vendorID == 7882){
+        liz_print_str("Lightmatter");
+    }
+    if(vendorID == 7886){
+        liz_print_str("EdgeQ");
+    }
+    if(vendorID == 7890){
+        liz_print_str("FuriosaAI");
+    }
+    if(vendorID == 7891){
+        liz_print_str("Shenzhen Yingjiaxun");
+    }
+    if(vendorID == 7892){
+        liz_print_str("shandong Exponent SemiConductor");
+    }
+    if(vendorID == 7893){
+        liz_print_str("Moore Threads");
+    }
+    if(vendorID == 7895){
+        liz_print_str("TARGETEK");
+    }
+    if(vendorID == 7896){
+        liz_print_str("Digiteq Automotive");
+    }
+    if(vendorID == 7897){
+        liz_print_str("Myrtle AI");
+    }
+    if(vendorID == 7898){
+        liz_print_str("Infodas");
+    }
+    if(vendorID == 7902){
+        liz_print_str("DreamBig");
+    }
+    if(vendorID == 7904){
+        liz_print_str("Shanghai Biren");
+    }
+    if(vendorID == 7905){
+        liz_print_str("Suzhou Kuhan INFORMATION");
+    }
+    if(vendorID == 7906){
+        liz_print_str("plc2 Design");
+    }
+    if(vendorID == 7908){
+        liz_print_str("");
+    }
+    if(vendorID == 7910){
+        liz_print_str("Clientron");
+    }
+    if(vendorID == 7911){
+        liz_print_str("Honor Device");
+    }
+    if(vendorID == 7913){
+        liz_print_str("SUSE LLC");
+    }
+    if(vendorID == 7915){
+        liz_print_str("KAIMAI");
+    }
+    if(vendorID == 7916){
+        liz_print_str("Jiangsu");
+    }
+    if(vendorID == 7917){
+        liz_print_str("Xiangdixian");
+    }
+    if(vendorID == 7918){
+        liz_print_str("Tracewell");
+    }
+    if(vendorID == 7920){
+        liz_print_str("Ayar Labs");
+    }
+    if(vendorID == 7921){
+        liz_print_str("Black Sesame");
+    }
+    if(vendorID == 7922){
+        liz_print_str("Smart IOPS");
+    }
+    if(vendorID == 7924){
+        liz_print_str("China Aviation");
+    }
+    if(vendorID == 7925){
+        liz_print_str("Winmate");
+    }
+    if(vendorID == 7926){
+        liz_print_str("GrAI Matter Labs");
+    }
+    if(vendorID == 7927){
+        liz_print_str("Shenzhen Gunnir");
+    }
+    if(vendorID == 7928){
+        liz_print_str("APTIV");
+    }
+    if(vendorID == 7929){
+        liz_print_str("Zeku");
+    }
+    if(vendorID == 7930){
+        liz_print_str("Pacific Light");
+    }
+    if(vendorID == 7931){
+        liz_print_str("Flexxon PTE");
+    }
+    if(vendorID == 7933){
+        liz_print_str("Rivos");
+    }
+    if(vendorID == 7934){
+        liz_print_str("Peng Yu Trigold");
+    }
+    if(vendorID == 7935){
+        liz_print_str("Rebellions");
+    }
+    if(vendorID == 7936){
+        liz_print_str("Enercon");
+    }
+    if(vendorID == 7938){
+        liz_print_str("Beijing Dayu");
+    }
+    if(vendorID == 7939){
+        liz_print_str("Shenzhen Shichuangyi");
+    }
+    if(vendorID == 7940){
+        liz_print_str("iPasslabs");
+    }
+    if(vendorID == 7941){
+        liz_print_str("WLCO");
+    }
+    if(vendorID == 7942){
+        liz_print_str("SiMa AI");
+    }
+    if(vendorID == 7943){
+        liz_print_str("Mitsui Chemicals America");
+    }
+    if(vendorID == 7944){
+        liz_print_str("Akrostar");
+    }
+    if(vendorID == 7946){
+        liz_print_str("Motorcomm");
+    }
+    if(vendorID == 7949){
+        liz_print_str("DeGirum");
+    }
+    if(vendorID == 7950){
+        liz_print_str("Accipiter");
+    }
+    if(vendorID == 7951){
+        liz_print_str("Nebula Matrix");
+    }
+    if(vendorID == 7955){
+        liz_print_str("Listan");
+    }
+    if(vendorID == 7957){
+        liz_print_str("Wolley");
+    }
+    if(vendorID == 7958){
+        liz_print_str("Xconn Tech");
+    }
+    if(vendorID == 7959){
+        liz_print_str("Zettastone");
+    }
+    if(vendorID == 7960){
+        liz_print_str("C-Payne PCB Design");
+    }
+    if(vendorID == 7961){
+        liz_print_str("Wuxi High Information");
+    }
+    if(vendorID == 7965){
+        liz_print_str("Initio HK");
+    }
+    if(vendorID == 7966){
+        liz_print_str("CARIAD");
+    }
+    if(vendorID == 7968){
+        liz_print_str("Channel Well");
+    }
+    if(vendorID == 7972){
+        liz_print_str("xFusion");
+    }
+    if(vendorID == 7974){
+        liz_print_str("SEMIFIVE");
+    }
+    if(vendorID == 7976){
+        liz_print_str("HisunTest Technologies");
+    }
+    if(vendorID == 7981){
+        liz_print_str("Elastics Cloud");
+    }
+    if(vendorID == 7984){
+        liz_print_str("Edelweiss");
+    }
+    if(vendorID == 7985){
+        liz_print_str("Nextorage");
+    }
+    if(vendorID == 7986){
+        liz_print_str("Wuhan YuXin");
+    }
+    if(vendorID == 7987){
+        liz_print_str("Purplelec");
+    }
+    if(vendorID == 7988){
+        liz_print_str("Aviva Links");
+    }
+    if(vendorID == 7989){
+        liz_print_str("Amlogic");
+    }
+    if(vendorID == 7990){
+        liz_print_str("Moffett AI");
+    }
+    if(vendorID == 7991){
+        liz_print_str("HongKong Likfo");
+    }
+    if(vendorID == 7992){
+        liz_print_str("Wisewave");
+    }
+    if(vendorID == 7993){
+        liz_print_str("Silicon Innovation");
+    }
+    if(vendorID == 7994){
+        liz_print_str("Powerleader");
+    }
+    if(vendorID == 7995){
+        liz_print_str("shunyao");
+    }
+    if(vendorID == 7996){
+        liz_print_str("Avant Tech");
+    }
+    if(vendorID == 7997){
+        liz_print_str("nLight");
+    }
+    if(vendorID == 7999){
+        liz_print_str("Shenzhen 3SNIC");
+    }
+    if(vendorID == 8000){
+        liz_print_str("Netac");
+    }
+    if(vendorID == 8001){
+        liz_print_str("AIO CORE");
+    }
+    if(vendorID == 8002){
+        liz_print_str("EKG Electronics");
+    }
+    if(vendorID == 8003){
+        liz_print_str("Ethernovia");
+    }
+    if(vendorID == 8004){
+        liz_print_str("VVDN");
+    }
+    if(vendorID == 8005){
+        liz_print_str("Signal Easy");
+    }
+    if(vendorID == 8006){
+        liz_print_str("Shenzhen Chrent");
+    }
+    if(vendorID == 8007){
+        liz_print_str("YUSUR");
+    }
+    if(vendorID == 8008){
+        liz_print_str("WISTRON NeWeb");
+    }
+    if(vendorID == 8009){
+        liz_print_str("NeuReality");
+    }
+    if(vendorID == 8010){
+        liz_print_str("Shenshen Corerain");
+    }
+    if(vendorID == 8011){
+        liz_print_str("Axera SemiConductors");
+    }
+    if(vendorID == 8012){
+        liz_print_str("Shenzhen Meigao");
+    }
+    if(vendorID == 8013){
+        liz_print_str("NIO Auto");
+    }
+    if(vendorID == 8014){
+        liz_print_str("ShenZhen Konkr");
+    }
+    if(vendorID == 8015){
+        liz_print_str("Shanghai DaoCloud");
+    }
+    if(vendorID == 8016){
+        liz_print_str("LeRain");
+    }
+    if(vendorID == 8017){
+        liz_print_str("Cloud Nine");
+    }
+    if(vendorID == 8018){
+        liz_print_str("Mango Boost");
+    }
+    if(vendorID == 8019){
+        liz_print_str("Shenzhen Jaguar");
+    }
+    if(vendorID == 8020){
+        liz_print_str("Teledyne FLIR");
+    }
+    if(vendorID == 8021){
+        liz_print_str("Shenzhen MADIGI");
+    }
+    if(vendorID == 8022){
+        liz_print_str("Sapeon");
+    }
+    if(vendorID == 8023){
+        liz_print_str("Teletrx");
+    }
+    if(vendorID == 8024){
+        liz_print_str("Wild River");
+    }
+    if(vendorID == 8025){
+        liz_print_str("Lucid Visions");
+    }
+    if(vendorID == 8027){
+        liz_print_str("Roscoe Software");
+    }
+    if(vendorID == 8028){
+        liz_print_str("TECNO MOBILE");
+    }
+    if(vendorID == 8029){
+        liz_print_str("SHANGHAI UniVista");
+    }
+    if(vendorID == 8030){
+        liz_print_str("Optos");
+    }
+    if(vendorID == 8031){
+        liz_print_str("DENKEI TRADING");
+    }
+    if(vendorID == 8032){
+        liz_print_str("ACCELECOM");
+    }
+    if(vendorID == 8033){
+        liz_print_str("TuSimple");
+    }
+    if(vendorID == 8034){
+        liz_print_str("Rosenberg Hochfrequenztechnik");
+    }
+    if(vendorID == 8035){
+        liz_print_str("Tessolve");
+    }
+    if(vendorID == 8037){
+        liz_print_str("Wuhan Lixi");
+    }
+    if(vendorID == 8038){
+        liz_print_str("Shenzhen Huahong");
+    }
+    if(vendorID == 8039){
+        liz_print_str("Shanghai Yunsilicon");
+    }
+    if(vendorID == 8041){
+        liz_print_str("Shenzhen Haocheng");
+    }
+    if(vendorID == 8042){
+        liz_print_str("Ford Motor");
+    }
+    if(vendorID == 8043){
+        liz_print_str("Nanjing Houmo");
+    }
+    if(vendorID == 8044){
+        liz_print_str("CIX Tech");
+    }
+    if(vendorID == 8045){
+        liz_print_str("Allwinner");
+    }
+    if(vendorID == 8046){
+        liz_print_str("Technolution");
+    }
+    if(vendorID == 8047){
+        liz_print_str("hudaxia");
+    }
+    if(vendorID == 8048){
+        liz_print_str("Qualitas");
+    }
+    if(vendorID == 8050){
+        liz_print_str("Jane Street");
+    }
+    if(vendorID == 8051){
+        liz_print_str("Shenzhen Quanxing");
+    }
+    if(vendorID == 8052){
+        liz_print_str("Leica");
+    }
+    if(vendorID == 8053){
+        liz_print_str("Shenzhen");
+    }
+    if(vendorID == 8054){
+        liz_print_str("SiEngine");
+    }
+    if(vendorID == 8055){
+        liz_print_str("Vast Data");
+    }
+    if(vendorID == 8056){
+        liz_print_str("Suvaca");
+    }
+    if(vendorID == 8057){
+        liz_print_str("Fraunhofer");
+    }
+    if(vendorID == 8058){
+        liz_print_str("Efinix");
+    }
+    if(vendorID == 8059){
+        liz_print_str("CELESTIAL");
+    }
+    if(vendorID == 8060){
+        liz_print_str("HongKong Applied Science");
+    }
+    if(vendorID == 8061){
+        liz_print_str("Qbit Semiconductor");
+    }
+    if(vendorID == 8062){
+        liz_print_str("Wilk");
+    }
+    if(vendorID == 8063){
+        liz_print_str("XEPIC");
+    }
+    if(vendorID == 8064){
+        liz_print_str("SHENZHEN Tong TAI YI");
+    }
+    if(vendorID == 8065){
+        liz_print_str("CONNPRO");
+    }
+    if(vendorID == 8066){
+        liz_print_str("d-Matrix");
+    }
+    if(vendorID == 8067){
+        liz_print_str("Hangzhou Clounix");
+    }
+    if(vendorID == 8068){
+        liz_print_str("45Drives");
+    }
+    if(vendorID == 8070){
+        liz_print_str("NEXTY Electronics");
+    }
+    if(vendorID == 8071){
+        liz_print_str("SiTime");
+    }
+    if(vendorID == 8072){
+        liz_print_str("GL Communications");
+    }
+    if(vendorID == 8073){
+        liz_print_str("Shenzhen Gooxi");
+    }
+    if(vendorID == 8074){
+        liz_print_str("J-Squared");
+    }
+    if(vendorID == 8075){
+        liz_print_str("Carl Zeiss meditec");
+    }
+    if(vendorID == 8076){
+        liz_print_str("Exascend");
+    }
+    if(vendorID == 8077){
+        liz_print_str("Graviton");
+    }
+    if(vendorID == 8078){
+        liz_print_str("Eliyan");
+    }
+    if(vendorID == 8079){
+        liz_print_str("Signature IP");
+    }
+    if(vendorID == 8080){
+        liz_print_str("Qside Technologies");
+    }
+    if(vendorID == 8081){
+        liz_print_str("Rapid Silicon");
+    }
+    if(vendorID == 8082){
+        liz_print_str("PROXMEM HK");
+    }
+    if(vendorID == 8083){
+        liz_print_str("Mega Eletronix");
+    }
+    if(vendorID == 8084){
+        liz_print_str("Chipsea");
+    }
+    if(vendorID == 8086){
+        liz_print_str("HANA Electronics");
+    }
+    if(vendorID == 8087){
+        liz_print_str("Ventana");
+    }
+    if(vendorID == 8088){
+        liz_print_str("AKEANA");
+    }
+    if(vendorID == 8089){
+        liz_print_str("Shenzhen Techwinsemi");
+    }
+    if(vendorID == 8106){
+        liz_print_str("Hexaflake");
+    }
+    if(vendorID == 8107){
+        liz_print_str("UniFabriX");
+    }
+    if(vendorID == 8139){
+        liz_print_str("Varex Imagaging");
+    }
+    if(vendorID == 8141){
+        liz_print_str("Hitchi high Tech");
+    }
+    if(vendorID == 8148){
+        liz_print_str("Sunix");
+    }
+    if(vendorID == 8153){
+        liz_print_str("NeuChips");
+    }
+    if(vendorID == 8225){
+        liz_print_str("Intelligent Memmory");
+    }
+    if(vendorID == 8628){
+        liz_print_str("HunanGoke");
+    }
+    if(vendorID == 8866){
+        liz_print_str("Rigol");
+    }
+    if(vendorID == 8898){
+        liz_print_str("Gowin");
+    }
+    if(vendorID == 8923){
+        liz_print_str("Missing Link");
+    }
+    if(vendorID == 9015){
+        liz_print_str("Macronix");
+    }
+    if(vendorID == 8186){
+        liz_print_str("stream Computing");
+    }
+    if(vendorID == 9798){
+        liz_print_str("Kingston Tech");
+    }
+    if(vendorID == 33006){
+        liz_print_str("virtualBox");
+    }
 
 
-
-
-
-
-
-//PAGE 7
+//PAGE 9
 
 }
