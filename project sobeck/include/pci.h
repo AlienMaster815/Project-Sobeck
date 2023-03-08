@@ -142,7 +142,7 @@ typedef struct __attribute__((packed)){
 uint16_t pciConfigReadWord(uint8_t bus, uint8_t slot, uint8_t func, uint8_t offset);
 uint8_t getProgIF(uint16_t bus, uint16_t device, uint16_t function);
 
-
+void Reset_PCI_Devices_Counter();
 uint16_t pciCheckVendor(uint8_t bus, uint8_t slot, uint8_t func );
 uint16_t getClassId(uint16_t bus, uint16_t device, uint16_t function);
 uint8_t getHeaderType(uint8_t bus,uint8_t slot,uint8_t function);

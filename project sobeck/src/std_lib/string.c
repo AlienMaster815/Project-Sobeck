@@ -49,11 +49,10 @@ void *memmove(void *str1, const void *str2, size_t n){
     return str1Pointer;
 }
 void *memset(void *str, int c, size_t n){
-    int* strPointer = (int*)str;
-    for(size_t i = 0; i < n; i++){
-        strPointer[i] = c;
-    }
-    return strPointer;
+    unsigned char *ptr = str;
+    while(n-- > 0)
+        *ptr++ = c;
+    return str;
 }
 
 

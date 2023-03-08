@@ -4,6 +4,7 @@
 #include "liz_print.h"
 #include "kernel_native_drivers.h"
 
+
 void Debug_PCI(uint8_t bus, uint8_t slot,uint8_t func);
 
 
@@ -98,6 +99,11 @@ uint8_t getProgIF(uint16_t bus, uint16_t device, uint16_t function)
 
 uint8_t device = 0;
 pci_device_table PCIdevice;
+
+void Reset_PCI_Devices_Counter(){
+    device = 0;
+}
+
 void store_device_info(uint8_t bus, uint8_t slot,uint8_t func){
 
     uint8_t headertype = getHeaderType(bus,slot,func);
@@ -180,15 +186,15 @@ void store_device_info(uint8_t bus, uint8_t slot,uint8_t func){
         else if(getSubClassID == 6){
             if(progIF == 0){
                 liz_print_str("SATA vendor Specific ");
-
+                store_sata_drive(bus,device,func,0x03);
             }
             if(progIF == 1){
                 liz_print_str("AHCI 1.0");
-
+                store_sata_drive(bus,device,func,0x01);
             }
             if(progIF == 2){
                 liz_print_str("SATA Serial storage ");
-
+                store_sata_drive(bus,device,func,0x02);
             }
         }
         else if(getSubClassID == 7){
