@@ -1,3 +1,0 @@
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/<username>/.profile
-    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-

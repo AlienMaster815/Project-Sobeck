@@ -1,9 +1,0 @@
-----------------------------Creator--LOG---------------------------------
-
-1... Layed Out a ACHI Sata Driver so Elizabet Can use a AHCI hardrive
-2... Made The Vga Adapter Initialize in Purple So it feels More like Horizon rather than the original bios yellow stained teeth color
-3... Still in Dev Chanel OS Dosent Operate Just Initializes and loops//Working on drivers for making the main kernel as we speak then the fun will begin
-4... 5937 LOC so far //1 loc is a line of code
-5... 6 KLOCs in 9 days Achievment Unlocked No Life Trophy
-6... I fixed Somthing I new Was going to haunt me longStory short i programmed the string.h functions wrong because i missed understood the fuctions concept... will fix the rest that need to be fixed there might be a few later on when i actualy need to use the functions NO COMMENTS ON STRING.H!!! Please
-7... Upload Compiled But Not Debugged But None Of New Code Implemented Debug tomorrow Its already 3 am
